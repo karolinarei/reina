@@ -1,1 +1,27 @@
 @import "variables";
+@import "header";
+@import "layout";
+@import "portfolio";
+@import "contact-form";
+@import "buttons";
+@import "scrollbar";
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: $color-primary;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: $color-secondary;
+}
+
+img {
+	width: 100%;
+}
+
+h2 {
+	margin-top: 0;
+}

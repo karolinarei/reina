@@ -1,10 +1,91 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+	  <title>reina.lt</title>
+	  <link rel="stylesheet" type="text/css" href="style.css">
+	  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="dist/app.min.css">
   </head>
 
   <body>
+    <header>
+  		<div class="logo">
+  			<img src="img/reina-logo-white.svg">
+  		</div>
+  		<nav>
+  			<ul>
+  				<li class="active">
+  					<a href="#">Apie</a>
+  				</li>
+  				<li>
+  					<a href="#">Portfolio</a>
+  					<ul>
+  						<li>
+  							<a href="#a">Sushi miestas</a>
+  						</li>
+  						<li>
+  							<a href="#b">Abio</a>
+  						</li>
+  						<li>
+  							<a href="#c">Elite Decor</a>
+  						</li>
+  						<li>
+  							<a href="#">Fishing Tackles & Boats</a>
+  						</li>
+  					</ul>
+  				</li>
+  				<li>
+  					<a href="#">Susisiekite</a>
+  				</li>
+  			</ul>
+  		</nav>
+  	</header>
 
+    <div class="content">
+  		<div class="container top-bar">
+  			<button>Susisiekite</button>
+  		</div>
+
+  		<div class="portfolio-item">
+  				<img class="c6" src="http://reina.lt/wp-content/uploads/2017/12/sushi-miestas-2.jpg"><div class="c2">
+  				<img src="http://reina.lt/wp-content/uploads/2017/12/sushi-miestas-2.jpg">
+  				<img src="http://reina.lt/wp-content/uploads/2017/12/sushi-miestas-2.jpg"><div class="item-info">
+  				<h2>Sushi miestas</h2>
+  				<h3>Logotipas</h3>
+  				<p>Random text.</p>
+  			</div>
+  			</div>
+  		</div>
+
+  		<div class="container">
+  			<div class="c4 contact-form">
+  				<h2>Patiko mano darbai?<br>Susisiekite!</h2>
+  				<h3>info@reina.lt</h3>
+  			</div><!--
+  		--><div class="c4 contact-form">
+  				<form>
+  					<label >
+  						<input type="text" name="user-name" required class="c4">
+  						<span class="label">Vardas</span>
+  					</label>
+  					<label >
+  						<input type="text" name="user-email" required class="c4">
+  						<span class="label">El. paštas</span>
+  					</label>
+  					<label >
+  						<textarea name="message" class="c8"></textarea>
+  						<span class="label">Žinutė</span>
+  					</label>
+  					<button>Siųsti</button>
+  				</form>
+  				<input class="c4" type="text" name="name" placeholder="Vardas"><!--
+  			--><input class="c4" type="text" name="email" placeholder="El. paštas">
+  				<form><textarea class="c8" name="message" placeholder="Žinutė"></textarea></form>
+  				<button>Siųsti</button>
+  			</div>
+  		</div>
+    </div>
+    
   </body>
 </html>
