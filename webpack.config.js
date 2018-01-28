@@ -7,7 +7,7 @@ const extractCss = new ExtractTextPlugin('app.min.css');
 
 module.exports = {
     entry: [
-        './src/app.js'
+        './src/assets/js/app.js'
     ],
 
     output: {
@@ -52,7 +52,7 @@ module.exports = {
                             loader: 'sass-resources-loader',
                             options: {
                                 resources: [
-                                    path.resolve(__dirname, './src/scss/_variables.scss')
+                                    path.resolve(__dirname, './src/assets/scss/_variables.scss')
                                 ]
                             }
                         },

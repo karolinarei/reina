@@ -3,6 +3,7 @@
   "rules": {
     "max-empty-lines": 1,
     "at-rule-no-unknown": null,
+    "no-eol-whitespace": null,
     "indentation": null
   }
 }
